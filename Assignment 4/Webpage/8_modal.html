@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/icon.jpg" type="image/x-icon">
+    <title>Modal</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto+Condensed&display=swap');
+
+        * {
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto Condensed', sans-serif;
+
+        }
+
+        #modal {
+            position: fixed;
+            top: 50px;
+            left: 350px;
+            width: 600px;
+            height: 400px;
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #ccc;
+            z-index: 1000;
+            display: none;
+        }
+
+        .modal-content {
+            padding: 20px;
+        }
+
+        .close {
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+            cursor: pointer;
+            background-color: slateblue;
+            color: white;
+            padding: 5px 20px;
+        }
+
+        #left {
+            float: left;
+        }
+
+        #right {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus obcaecati tempore sed porro tenetur
+            nemo, quidem repellat facilis ducimus sequi, doloremque animi suscipit libero cumque pariatur harum ea
+            earum? Ab sit enim accusantium quisquam expedita, quidem mollitia dignissimos pariatur minus atque eum
+            minima porro nemo, molestiae amet eius recusandae. Eos dolorum nihil ratione quia expedita nemo perferendis,
+            inventore repellat labore fugiat saepe. Eos, vel! Illo laboriosam nostrum sequi numquam cupiditate. Totam ab
+            eligendi, a architecto asperiores tempore cupiditate eius dolores laboriosam, porro quidem iste hic. Vero
+            neque perferendis saepe. Veritatis, velit dolores distinctio possimus beatae animi corporis mollitia aut
+            optio doloribus impedit earum nemo harum sit fuga saepe reiciendis numquam commodi ullam consequatur culpa,
+            maiores at dolorem! Odio quibusdam nesciunt maiores similique saepe dignissimos earum qui beatae quisquam,
+            laboriosam autem inventore! Unde enim libero necessitatibus omnis aliquam harum blanditiis atque quisquam?
+            Nostrum commodi nobis eveniet nemo sint eaque corporis at accusamus mollitia, eligendi illum facere nisi,
+            similique natus? Repudiandae sapiente distinctio delectus quo eius expedita amet iste molestiae eum
+            dignissimos? Perferendis quidem laudantium, voluptate doloremque repudiandae, quia, nemo fugiat earum ad sit
+            quaerat natus inventore quisquam facere. Illo incidunt sit saepe possimus. Tenetur rem ipsum dolores? Hic
+            exercitationem autem quam aspernatur voluptatum atque a quidem architecto alias fugiat ab saepe corrupti
+            minima, laudantium modi natus inventore. Ut tempore iste rem aperiam quod sunt, natus culpa quibusdam eos
+            accusantium fugiat corrupti nihil veniam officiis ab non consequatur sit fuga, vel est accusamus quisquam!
+            Nemo, repudiandae rerum veniam velit consequuntur architecto voluptatum ut, inventore quidem possimus
+            voluptates molestias consectetur quod quae modi iure facilis nesciunt harum dolores! Non adipisci modi
+            sapiente beatae natus asperiores vitae perspiciatis iusto enim commodi, porro tenetur. Animi placeat eveniet
+            repellat dolorem voluptatum, suscipit doloremque eum laboriosam quibusdam odio dignissimos dolor quas magnam
+            ipsa assumenda porro! Laboriosam fugiat sunt, tempore eveniet aspernatur cumque nisi illo maiores rerum esse
+            ex sapiente natus a earum eligendi? Eius cum doloremque libero mollitia voluptate, impedit perferendis,
+            eligendi debitis odio rem blanditiis iste quo in quas quos suscipit. Hic, vitae ullam laborum, temporibus
+            facilis eum, distinctio doloribus architecto commodi cumque at? Similique recusandae doloremque cumque
+            quibusdam nesciunt dolorem, numquam quo odio id commodi perspiciatis nobis, saepe ipsa rem. Enim inventore
+            dolor obcaecati quibusdam possimus deserunt cupiditate corrupti, autem iure beatae aliquid sunt excepturi
+            est ex aliquam voluptatibus adipisci, accusamus quis. Sapiente esse ratione quis culpa placeat eligendi
+            porro sunt repellat et ea, eveniet, suscipit explicabo mollitia neque nostrum. Itaque sunt dolor facilis
+            assumenda. A expedita, cumque deleniti incidunt, hic, dignissimos dolor corrupti numquam tempore assumenda
+            laboriosam minima exercitationem alias adipisci aspernatur quis! Perferendis sit ab, iusto eaque numquam,
+            architecto sequi tempore dolorum facere facilis dignissimos incidunt recusandae voluptatum id? Maxime
+            tempora deserunt quis tenetur earum provident iure exercitationem repellendus, commodi quidem ab? Repellat
+            est doloribus sit sapiente iusto doloremque consectetur, mollitia, qui adipisci sunt quas iure soluta et
+            perferendis minus officia iste voluptatibus! Repudiandae unde aperiam sed vel fuga animi, et asperiores
+            consectetur ut quisquam ea nostrum ducimus illo, deserunt mollitia quia. Architecto, porro voluptate
+            excepturi suscipit illo modi vero expedita cum earum eius ipsum quidem est tempore iste quae facilis
+            delectus. Perferendis quam ab pariatur adipisci et quia voluptate asperiores, earum voluptatibus reiciendis
+            ullam expedita consequatur autem quidem, recusandae cumque! Ex minus sapiente natus unde aut quae! Commodi
+            non animi expedita itaque, ex adipisci fuga enim facilis id doloremque sit provident eos ullam fugit
+            corrupti rem quos. A, alias. Vitae odio fugit totam placeat ratione delectus minus saepe quibusdam
+            perspiciatis non aperiam, commodi consequuntur laborum reprehenderit nam ad voluptatum provident nostrum?
+            Asperiores ex consequuntur rem fugit numquam rerum mollitia suscipit, fuga sapiente. Lorem, ipsum dolor sit
+            amet consectetur adipisicing elit. Ratione, exercitationem necessitatibus. Quam, voluptate quo magnam,
+            expedita, nemo corporis consequatur voluptatum animi explicabo esse rerum atque iure modi quaerat est culpa
+            minima. Vel pariatur molestias provident fugiat assumenda, aspernatur quisquam repellat delectus et possimus
+            fuga beatae deleniti maxime molestiae expedita culpa ratione facere cum ut officia eum. Autem et doloribus
+            culpa deserunt obcaecati delectus molestiae corporis in consectetur ipsam eligendi fugiat quaerat, eum porro
+            quidem, nostrum maxime nobis rem esse voluptatem molestias mollitia facilis nam saepe? Reicienpariatur nulla
+            quia ea, excepturi quae tenetur? Alias cumque eius natus dolores Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ipsum dolore placeat consequatur aliquam cupiditate neque, facere dignissimos enim unde
+            rem perferendis non dolorem quibusdam accusantium iste aut illo nulla, rerum quasi amet tempore fuga eius.
+            Quae amet quidem iusto harum libero nulla nesciunt recusandae nemo expedita. Commodi vero totam
+            exercitationem! </p>
+        <div id="modal">
+            <div class="modal-content">
+                <h2>Want a free consultation ?</h2>
+                <hr>
+                <p>Full Name</p>
+                <hr>
+                <p>Email</p>
+                <hr>
+                <p>contact number</p>
+                <hr>
+                <label for="user">Message</label>
+                <input type="text" name="user">
+                <button class="close">Send
+                    message</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById("modal").style.display =
+            "block";
+    </script>
+</body>

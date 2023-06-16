@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <style>
+        .container {
+            height: 700px;
+            width: 600px;
+            border: 2px solid black;
+        }
+
+        .box {
+            width: 250px;
+            height: 310px;
+        }
+
+        .one {
+            background-color: green;
+            position: absolute;
+        }
+
+        .two {
+            background-color: goldenrod;
+            position: absolute;
+            top: 35px;
+            left: 50px;
+        }
+
+        .three {
+            background-color: dodgerblue;
+            position: relative;
+            top: 70px;
+            left: 100px;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            margin-top: 70px;
+            margin-left: 50px;
+        }
+
+        .three:hover {
+            z-index: 14;
+        }
+
+        .two:hover {
+            z-index: 13;
+        }
+
+        .one:hover {
+            z-index:14;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="one box">
+            <img src="../assets/full-stack.jpg" alt="pokemonimage">
+        </div>
+        <div class="two box">
+            <img src="../assets/hiteshsir.jpg" alt="pokemonimage">
+        </div>
+        <div class="three box">
+            <img src="../assets/website-banner-12.png" alt="pokemon image">
+        </div>
+    </div>
+</body>
+
+</html>
