@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Table with Css include Also</title>
+
+    <style>
+        table{
+            border-collapse: collapse;
+            background-color: rgb(147, 173, 196);
+            width: 40%;
+            height: 20px;
+            text-align: center;
+            border: 2px solid rgb(59, 52, 52);
+        }
+        table tr{
+            height: 30px;
+        }
+        body{
+            background-color: rgb(174, 177, 180);
+        }
+    </style>
+    
+</head>
+<body>
+<h1 align="center">Product Details</h1>
+    <table border="4px" align="center" >
+        <tr>
+            <td >Product</td>
+            <td colspan="2">Falvours & Quantity</td>
+        </tr>
+        <tr>
+            <td colspan="3">Dairy</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Ice Creams</td>
+            <td>Vanilla</td>
+            <td>500g</td>
+        </tr>
+        <tr>
+            <td>Chocolate</td>
+            <td>250g</td>
+        </tr>
+        <tr>
+            <td>Butter Scotch</td>
+            <td>1kg</td>
+        </tr>
+        <tr>
+            <td colspan="3">Beverages</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="3">Soda</td>
+            <td>Cola</td>
+            <td>0.5L</td>
+        </tr>
+        <tr>
+            <td>Orange</td>
+            <td>1 L</td>
+        </tr>
+        <tr>
+            <td>Lime</td>
+            <td>2 L</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
