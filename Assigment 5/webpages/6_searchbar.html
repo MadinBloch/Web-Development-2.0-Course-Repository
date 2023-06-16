@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/google-icon.png" type="image/x-icon">
+    <title>Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #141a25;
+
+        }
+
+        .img-google {
+            width: 250px;
+        }
+
+        .conatainer {
+            display: flex;
+            height: 500px;
+            justify-content: center;
+        }
+
+        .google-img {
+            left: 200px;
+            align-self: center;
+        }
+
+        .input-element {
+            position: absolute;
+            top: 330px;
+            background-color: #141a25;
+            border: 1px solid #adaaaa;
+            border-radius: 20px;
+            width: 400px;
+        }
+
+        .input {
+            height: 30px;
+            width: 300px;
+            color: aliceblue;
+            margin-left: 35px;
+            background-color: #141a25;
+            border: 1px solid black;
+            border-right-color: #141a25;
+            border-color: #141a25;
+
+        }
+
+        .leans {
+            color: #dfe4e9;
+            position: absolute;
+            left: 13px;
+            top: 8px;
+            display: block;
+        }
+
+        .scanner {
+            color: aliceblue;
+            position: absolute;
+            right: 10px;
+            top: 4px;
+            width: 25px;
+            border-radius: 50%;
+            background-color: #141a25;
+        }
+
+        .mic {
+            color: aliceblue;
+            position: absolute;
+            right: 44px;
+            top: 10px;
+            background-color: #141a25;
+        }
+        input:focus {
+      outline: none;
+    }
+   
+    </style>
+</head>
+
+<body>
+    <div class="conatainer">
+        <div class="google-img">
+            <img src="../assets/google-image.png" alt="google-image" class="img-google">
+        </div>
+        <div class="input-element">
+            <i class="fa-solid fa-magnifying-glass leans"></i>
+            <input type="text" class="input">
+            <i class="fa-solid fa-microphone mic"></i>
+            <img src="../assets/scannerimage.webp" alt="" class="scanner">
+        </div>
+    </div>
+</body>
+
+</html>

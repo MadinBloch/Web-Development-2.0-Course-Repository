@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar </title>
+    <style>
+        body {
+            background-color: #0f151f;
+        }
+
+        .container {
+            display: flex;
+            height: 500px;
+        }
+
+        .image {
+            align-self: center;
+        }
+
+        .image-align {
+            display: flex;
+            position: relative;
+            left: 200px;
+        }
+
+        img {
+
+            border-radius: 50%;
+            border: 8px solid white;
+            width: 180px;
+        }
+
+        .img1 {
+            position: relative;
+            left: 40px;
+            z-index: 3;
+        }
+
+        .img3 {
+            position: relative;
+            right: 40px;
+            z-index: 1;
+        }
+
+        .img2 {
+            position: relative;
+            z-index: 2;
+        }
+
+        .img4 {
+            position: relative;
+            right: 80px;
+            z-index: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image-align">
+            <div class="image"><img class="img1" src="../assets/hero-4.jpg" alt=""></div>
+            <div class="image"><img class="img2" src="../assets/hero-4.jpg" alt=""></div>
+            <div class="image"><img class="img3" src="../assets/hero-4.jpg" alt=""></div>
+            <div class="image"><img class="img4" src="../assets/hero-4.jpg" alt=""></div>
+        </div>
+    </div>
+</body>
+
+</html>

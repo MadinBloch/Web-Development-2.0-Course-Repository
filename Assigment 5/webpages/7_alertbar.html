@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/icon.jpg" type="image/x-icon">
+    <title>Alert Bar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto+Condensed&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .alert {
+
+            background-color: #f79f9f;
+            width: 100%;
+            height: 50px;
+            position: fixed;
+            border-radius: 10px;
+        }
+
+        .heading {
+            text-align: center;
+            position: relative;
+            top: 0px;
+        }
+
+        .warning {
+            margin-left: 12px;
+            top: 19px;
+            position: relative;
+        }
+        .cross{
+            position: relative;
+            left: 1230px;
+            bottom: 25px;
+        }
+        p{
+            color: red;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="alert">
+        <i class="fa-solid fa-triangle-exclamation fa-2xl warning" style="color: #ef4848da;"></i>
+        <div class="heading">
+           <p> Warning!This Action is Not Allowed.</p>
+        </div>
+        <i class="fa-solid fa-xmark fa-2xl cross" style="color: #ea4c4cda;"></i>
+    </div>
+
+
+
+</body>
+
+</html>
