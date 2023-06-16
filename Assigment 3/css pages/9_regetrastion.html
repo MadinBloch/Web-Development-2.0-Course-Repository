@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        input[type="text"] {
+            color: blue;
+        }
+
+        input[type="email"] {
+            color: green;
+        }
+
+        input[type="password"] {
+            color: red;
+        }
+
+        /* Additional input field styles  */
+        input {
+            margin-bottom: 10px;
+            padding: 5px;
+            width: 200px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        #register:hover {
+            background-color: #47bbbb;
+            color: black;
+            cursor: pointer;
+        }
+
+        #register {
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password"> <br>
+
+        <input type="submit" value="Register" id="register">
+    </form>
+</body>
+
+</html>
