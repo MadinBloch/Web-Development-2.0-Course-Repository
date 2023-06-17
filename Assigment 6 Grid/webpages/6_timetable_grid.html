@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Table </title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto+Condensed&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', 'Montserrat', sans-serif;
+            font-family: 'Condensed', sans-serif;
+            text-align: center;
+        }
+
+        body {
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            padding: 10px 0;
+        }
+
+        /* color classes */
+        .aqua {
+            background-color: #00ffff;
+        }
+
+        .grey {
+            background-color: #cad5e2;
+        }
+
+        .yellow {
+            background-color: #ffff00;
+        }
+
+        .green {
+            background-color: #008000;
+        }
+
+        /* top bar design */
+        .top-bar {
+            display: grid;
+            width: 100%;
+            background-color: #ff6666;
+            grid-template-columns: repeat(8, 1fr);
+            font-weight: bold;
+        }
+
+        .top-bar .col {
+            padding: 15px 5px;
+            border: 2px dotted #000;
+        }
+
+        /* bottom bar design */
+        .bottom-bar {
+            display: grid;
+            grid-template-rows: repeat(6, 1fr);
+            grid-template-columns: 12.5% 25% 12.5% 12.5% 12.5% 25%;
+        }
+
+        .row .col {
+            padding: 15px 5px;
+            border: 2px dotted #000;
+        }
+
+        /* row 1 design */
+        .row-1 {
+            background-color: #800080;
+            font-weight: bold;
+        }
+
+        /* row 2 design */
+        .row-2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .row-2 .col-3,
+        .row-2 .col-6,
+        .row-2 .col-9 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        /* row 5 design */
+        .row-5 {
+            border: 2px dotted #000;
+        }
+
+        .row-5 .col {
+            border: none;
+        }
+
+        .row-5 .col-1 {
+            border-top: 2px dotted #000;
+        }
+
+        .row-5 .col-6 {
+            padding: 25px 0;
+        }
+
+        /* row 6 design */
+        .row-6 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .row-6 .col-1,
+        .row-6 .col-4,
+        .row-6 .col-7,
+        .row-6 .col-8 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>School Time table</h1>
+    <!-- container starts here -->
+    <div class="container">
+        <!-- top bar starts here -->
+        <div class="top-bar">
+            <div class="col col-1">Time</div>
+            <div class="col col-2">08:00 AM - 09:00 AM</div>
+            <div class="col col-3">09:00 AM - 10:00 AM</div>
+            <div class="col col-4">10:00 AM - 11:00 AM</div>
+            <div class="col col-5">11:00 AM - 12:00 PM</div>
+            <div class="col col-6">12:00 AM - 02:00 PM</div>
+            <div class="col col-7">02:00 PM - 03:00 PM</div>
+            <div class="col col-8">03:00 PM - 04:00 PM</div>
+        </div>
+        <!-- top bar ends here -->
+
+        <!-- bottom bar starts here -->
+        <div class="bottom-bar">
+            <!-- row 1 starts here -->
+            <div class="row row-1">
+                <div class="col col-1">Monday</div>
+                <div class="col col-2">Tuesday</div>
+                <div class="col col-3">Wednesday</div>
+                <div class="col col-4">Thursday</div>
+                <div class="col col-5">Friday</div>
+                <div class="col col-6">Saturday</div>
+            </div>
+            <!-- row 1 ends here -->
+
+            <!-- row 2 starts here -->
+            <div class="row row-2">
+                <div class="col col-1 aqua">English</div>
+                <div class="col col-2 aqua">Biology</div>
+                <div class="col col-3 grey">Biology Lab</div>
+                <div class="col col-4 aqua">English</div>
+                <div class="col col-5 aqua">Biology</div>
+                <div class="col col-6 grey">Biology Lab</div>
+                <div class="col col-7 aqua">English</div>
+                <div class="col col-8 aqua">Biology</div>
+                <div class="col col-9 grey">Biology Lab</div>
+            </div>
+            <!-- row 2 ends here -->
+
+            <!-- row 3 starts here -->
+            <div class="row row-3">
+                <div class="col col-1 aqua">Physics</div>
+                <div class="col col-2 aqua">Physics</div>
+                <div class="col col-3 aqua">Physics</div>
+                <div class="col col-4 aqua">Physics</div>
+                <div class="col col-5 aqua">Physics</div>
+                <div class="col col-6 aqua">Physics</div>
+            </div>
+            <!-- row 3 ends here -->
+
+            <!-- row 4 starts here -->
+            <div class="row row-4">
+                <div class="col col-1 aqua">Chemistry</div>
+                <div class="col col-2 aqua">Chemistry</div>
+                <div class="col col-3 aqua">Chemistry</div>
+                <div class="col col-4 aqua">Chemistry</div>
+                <div class="col col-5 aqua">Chemistry</div>
+                <div class="col col-6 aqua">Chemistry</div>
+            </div>
+            <!-- row 4 ends here -->
+
+            <!-- row 5 starts here -->
+            <div class="row row-5">
+                <div class="col col-1 yellow">L</div>
+                <div class="col col-2 yellow">U</div>
+                <div class="col col-3 yellow">N</div>
+                <div class="col col-4 yellow">C</div>
+                <div class="col col-5 yellow">H</div>
+                <div class="col col-6 yellow">Break</div>
+            </div>
+            <!-- row 5 ends here -->
+
+            <!-- row 6 starts here -->
+            <div class="row row-6">
+                <div class="col col-1 grey">Chemistry Lab</div>
+                <div class="col col-2 aqua">English</div>
+                <div class="col col-3 aqua">Biology</div>
+                <div class="col col-4 green">Games</div>
+                <div class="col col-5 aqua">English</div>
+                <div class="col col-6 aqua">Biology</div>
+                <div class="col col-7 grey">Physics Lab</div>
+                <div class="col col-8 green">LET OFF</div>
+            </div>
+            <!-- row 6 ends here -->
+        </div>
+        <!-- bottom bar ends here -->
+    </div>
+    <!-- container endss here -->
+</body>
+
+</html>

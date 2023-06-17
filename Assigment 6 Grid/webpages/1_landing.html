@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Landing Page </title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto+Condensed&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:  'Roboto','Montserrat', sans-serif;
+            font-family: 'Condensed', sans-serif;
+        }
+
+        /* main container design */
+        .container {
+            display: grid;
+            grid-template-columns: 60% 30% 10%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* .information div design */
+        .container>.information {
+            padding: 0 10%;
+            align-self: center;
+        }
+
+        .container>.information>h1 {
+            font-weight: bold;
+            font-size: 3rem;
+        }
+
+        .container>.information>p {
+            margin: 5% 0;
+        }
+
+        .container>.information>button {
+            background-color: #000;
+            color: #fff;
+            padding: 8px 25px;
+            border: none;
+        }
+
+        /* image div design */
+        .container>.image>img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* color displayer div design */
+        .color-displayer {
+            background-color: #ffff00;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- information div start here -->
+        <div class="information">
+            <h1>Healthy Food</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem
+                excepturi saepe exercitationem tenetur? Recusandae ipsam, optio magnam
+                est consectetur nostrum nisi dolores facilis ratione repudiandae omnis
+                accusamus, maxime earum fuga maiores? Consectetur ea dolorem officia
+                exercitationem quibusdam eum, ut doloribus. Dolores quisquam
+                cupiditate exercitationem a quas quod voluptates eum eveniet
+                accusantium deserunt nulla, eos perferendis, commodi doloremque iure
+                ipsum!
+            </p>
+            <button>Read More</button>
+        </div>
+        <!-- information div ends here -->
+
+        <!-- image div starts here -->
+        <div class="image">
+            <img src="../Assets/fruits.avif" alt="food-banner" />
+        </div>
+        <!-- image div ends here -->
+
+        <!-- color div starts here -->
+        <div class="color-displayer"></div>
+        <!-- color div ends here -->
+    </div>
+</body>
+
+</html>
