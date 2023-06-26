@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Zooming Image</title>
+    <style>
+        .container {
+            width: 300px;
+            height: 300px;
+            overflow: hidden;
+        }
+
+        .container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* Maintain the aspect ratio and cover the container */
+            transition: transform 0.5s;
+            /* Apply the transition effect to the transform property */
+        }
+
+        .container img:hover {
+            transform: scale(1.2);
+            /* Zoom in the image on hover */
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGV2ZWxvcG1lbnQlMjB0fGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+            alt="Zooming Image">
+    </div>
+</body>
+
+</html>

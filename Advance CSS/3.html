@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cards</title>
+    <style>
+        .container{
+            width: 100vw;
+             height:100vh;
+
+        }
+        .card {
+            background:linear-gradient(to right, #78b7ff,#1371ff);
+            height: 350px;
+            width: 500px;
+            border: 4px solid black;
+            border-radius: 10px;
+            margin-left: 400px;
+            margin-top: 200px;  
+        }
+        .heading{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        h2{
+            font-size: 30px;
+            font-weight: 600;
+        }
+        p{
+            font-size: 20px;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 5px;
+            font-weight: 500;
+        }
+        .lists{
+            margin-left: 50px;
+        
+        }
+        h1{
+            font-weight: 600;
+        }
+        ul li {
+            color: black;
+            font-size: 20px;
+        }
+        button{
+            width: 400px;
+            margin-left: 40px;
+            height: 40px;
+            font-size: 19px;
+            background: linear-gradient(to right,#8ff9f6,#11f7d1);
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .card:hover{
+            transform: rotate(-60deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="card">
+        <div class="heading">
+            <h2>#01</h2>
+            <p>Created On:01/01/2023</p>
+        </div>
+        <div class="lists">
+            <h1>Improtant dates</h1>
+            <ul>
+                <li>January 26 - Republic Day</li>
+                <li>August 15 - Independance Day</li>
+                <li>October 2 - Gandhi Jayanti</li>
+                <li>August 29 - National Sports Day</li>
+            </ul>
+        </div>
+        <div class="btn">
+            <button>Mark As Done </button>
+        </div>
+    </div>
+</div>
+</body>
