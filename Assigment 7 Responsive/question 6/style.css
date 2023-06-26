@@ -1,0 +1,137 @@
+/* Reset CSS  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* footer  */
+.footer {
+  background-color: #000000;
+  width: 100vw;
+  height: 50vh;
+  position: absolute;
+  bottom: 0;
+}
+
+/* container  */
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+/* one card styling */
+.oneCard {
+  width: 30%;
+}
+
+/* utility classes  start */
+h1 {
+  margin-bottom: 29px;
+  margin-top: 40px;
+  font-size: 40px;
+  color: white;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 10px 0px 10px 0px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #c1d0dd;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* utility classes  end  */
+
+/* paragrap styling  */
+.oneCard > p {
+  color: #c0cedb;
+  margin-bottom: 80px;
+  word-spacing: 10px;
+  line-height: 30px;
+  font-size: 1.4rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* input text styling  */
+.Newlatter > input {
+  border-radius: 6px;
+  width: 90%;
+  height: 15%;
+}
+
+/* button subscribe  */
+.Newlatter > .btn button {
+  width: 90%;
+  height: 40px;
+  margin-top: 5px;
+  background-color: #228cf0;
+  color: aliceblue;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+/* div newlatter width difine  */
+.Newlatter {
+  width: 20%;
+}
+
+/* media queries for smaller screens  */
+
+@media screen and (max-width: 1100px) {
+
+/* container styling */
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 145vh;
+    background-color: black;
+    overflow: hidden;
+  }
+
+  /* One card styling  */
+  .oneCard {
+    width: 100vw;
+    padding: 10px 50px;
+  }
+
+  /* navigation links  */
+  .navigationLinks {
+    width: 100vw;
+    margin-left: 100px;
+  }
+
+  /* supports  */
+  .supports {
+    width: 100vw;
+    margin-left: 100px;
+  }
+
+  /* new latter  */
+  .Newlatter {
+    margin-left: 100px;
+    width: 100vw;
+  }
+
+  /* input set  */
+  .Newlatter > input {
+    border-radius: 6px;
+    width: 60%;
+    height: 50px;
+  }
+
+  /* button stying  */
+  .Newlatter > .btn button {
+    width: 60%;
+    height: 40px;
+    background-color: #228cf0;
+    color: aliceblue;
+    font-weight: 500;
+    border-radius: 6px;
+  }
+}
