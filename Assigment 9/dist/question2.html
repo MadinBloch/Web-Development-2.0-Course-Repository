@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <!-- linking my stylesheet  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- linking fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar start  -->
+    <nav class="flex justify-between w-full px-2 py-2 bg-[#212224] items-center">
+        <div class="logo w-10 flex items-center gap-2 font-bold">
+            <img src="./assets/logo.jpg" alt="" class="rounded-full">
+            <span class="font-3xl text-white">LIQUID</span>
+        </div>
+        <div class="hamburger-menu md:hidden block text-white">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+        </div>
+        <div class="other-info hidden md:flex gap-3 ">
+            <button class="uppercase bg-orange-600 text-white text-sm px-2 rounded-lg font-bold">Create Account</button>
+            <img src="./assets/profile.png" class="w-10" alt="">
+        </div>
+    </nav>
+    <!-- navbar end   -->
+
+    <!-- hero section start  -->
+
+
+    <div class="hero-section flex flex-col md:flex-row bg-[#212224] text-white h-screen">
+        <div class="content w-full md:w-1/2 flex flex-col justify-center items-start md:pl-[5%] md:pr-[5%] p-2">
+            <h1 class="md:text-6xl text-5xl"> Multi-regulated <br />
+                global broker.</h1>
+            <p class="my-6 text-slate-400">
+                A trusted destination for traders worldwide, Authorised bt FCA, ASIC &
+                FSCA Authorised bt FCA, ASIC & FSCA
+            </p>
+            <button class="border border-orange-600 rounded-md md:py-1 px-3   md:w-auto uppercase py-2">
+                Discover Account
+            </button>
+        </div>
+        <div class="image">
+            <img src="./assets/banner.jpg" alt="" class="w-full h-full object-cover">
+        </div>
+    </div>
+
+    <!-- hero section end  -->
+
+
+
+</body>
+
+</html>
