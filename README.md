@@ -1,4 +1,4 @@
-# Welcome to PW Full Stack Web Developmen Repository!
+# Welcome to PW Full Stack Web Development Repository!
 
 Hello there! 👋 Welcome to my "Web Development 2.0" course repository.
 
