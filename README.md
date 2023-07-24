@@ -1,4 +1,4 @@
-# pw-web-dev
+# PW Full Stack Web Development 
 
 Welcome to the "Web Development 2.0" course repository!
 
