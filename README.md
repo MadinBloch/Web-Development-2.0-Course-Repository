@@ -1,18 +1,43 @@
-# Full Stack Web Development Projects
+# pw-web-dev
 
-This repository houses my full stack web development projects. I have set up a comprehensive collection of projects in this repository, utilizing different front-end and back-end technologies. I have organized each project into separate branches within this repository.
+Welcome to the "Web Development 2.0" course repository!
 
-## List of Projects
+## Course Description
 
-1. **Blog Website**: This project encompasses the front-end and back-end code for my personal blog website. I have built the front-end using React.js and the back-end using Node.js and Express.js.
+This repository contains all my assignments and projects completed during the "Web Development 2.0" course offered by [pwkills](https://www.pwskills.com). The course focuses on advanced web development concepts and technologies to build modern, interactive, and scalable web applications.
 
-2. **E-commerce App**: In this project, I have developed an e-commerce app where users can browse products, add products to the cart, and process orders. I have built the front-end using React.js and the back-end using the Django framework.
+## Technologies Covered
 
-## Setup
+Throughout the course, I have learned and implemented the following technologies:
 
-To set up any of the projects in this repository, please follow the instructions provided in the respective project's branch.
+- HTML5 and CSS3
+- JavaScript (ES6+)
+- Front-end frameworks (TailwindCSS, React)
+- Back-end technologies (Node.js, Express)
+- Database management (MongoDB)
+- Version control using Git
+- Deployment and hosting on platforms like Heroku, Netlify, or AWS
+
+
+3. Follow the instructions in each assignment or project folder to set up and run the application.
+
+## About Me
+
+Madin Bloch
+Student of BCA | Web Developer.
+
+Passionate BCA student with a keen interest in web development. Proficient in CSS, HTML,Php and Bootstrap, MySQl currently expanding skills in the MEARN stack (MongoDB, Express.js, Angular, React.js, Node.js). Committed to continuous learning and leveraging technology to build engaging and user-friendly web experiences.
+
+Feel free to explore the code and projects in this repository. If you have any questions or suggestions, don't hesitate to reach out to me.
 
 ## Contact
 
-If you have any questions, feedback, or would like to connect, please feel free to reach out to me.
+Let's connect! You can reach me via:
+
+- LinkedIn: https://www.linkedin.com/in/madin-bloch/
+- Email: Madinkhan0633@gmail.com
+---to
+
+Happy coding!
+
 
