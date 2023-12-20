@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Create Element</title>
+</head>
+<body>
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>three</li>
+        </ul>
+    <script>
+            let h1 =  document.createElement("h1");
+            h1.textContent = "Hello, world!";
+            h1.style.color = "green";
+            h1.className = "title";
+            console.log(h1);
+
+            document.body.appendChild(h1)
+            // document.body.remove(h1)
+
+            // Remove 
+
+            let ul = document.querySelector("ul")
+            let li = document.querySelectorAll("li")
+            console.log(ul);
+            // console.log(li);
+            ul.remove()
+
+        
+    </script>
+</body>
+</html>

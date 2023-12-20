@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toggle Image</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 20px;
+        }
+
+        #image-container {
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+            position: relative;
+        }
+
+        #img {
+            max-width: 100%;
+            height: auto;
+            opacity: 1;
+            transition: opacity 0.5s;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="heading">Your Image is visible.</h1>
+    <div id="image-container">
+        <img src="https://plus.unsplash.com/premium_photo-1661320832191-8e9866f34bc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"
+            alt="Course Image" id="img" />
+    </div>
+    <button onclick="toggleImage()">Toggle Image</button>
+
+    <script>
+        function toggleImage() {
+            const image = document.getElementById("img");
+            const heading = document.getElementById("heading");
+            
+            if (image.style.opacity == 1) {
+                image.style.opacity = 0;
+                heading.innerText = "Your Image is hidden.";
+            } else {
+                image.style.opacity = 1;
+                heading.innerText = "Your Image is visible.";
+            }
+        }
+    </script>
+</body>
+
+</html>

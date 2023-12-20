@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">Hello Madin</h1>
+    <ul>
+        <li class="tech">One</li>
+        <li class="tech">Two</li>
+        <li class="tech">Three</li>
+    </ul>
+
+    <script>
+
+        // Id 
+
+        let heading = document.getElementById("heading");
+        console.log(heading.innerHTML);
+        console.log(heading.innerText);      
+        // heading.innerHTML = "Nice to meet you";
+        // heading.style.color = "red";
+
+
+        // Class 
+
+        let list = document.getElementsByClassName("tech")
+        console.log(list[1].innerText);
+        // console.log(list[1].innerText);
+        list[1].style.color = "red";
+        list[1].innerText = "JavaScript";
+
+
+        // Query Selator 
+
+        let changeHeading = document.querySelector("#heading");
+
+        changeHeading.id = "Madin";
+        changeHeading.className = "madin2"
+        // changeHeading.classList = " h hddla dlda"
+
+        changeHeading.setAttribute("title", "Madin")
+
+    </script>
+</body>
+</html>
